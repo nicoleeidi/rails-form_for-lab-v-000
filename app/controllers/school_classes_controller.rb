@@ -1,5 +1,6 @@
 class SchoolClassesController < ApplicationController
   def new
+    @school_class=SchoolClass.new
     #do we need anything here?
   end
   def edit
